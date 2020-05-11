@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Moodle Media",
+  "version": "1.0",
+  "description": "MP3 & MP4 Dateien dirket in Moodle abspielen",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://moodle.gsravensburg.de/*"
+      ],
+      "js": [
+        "moodle-media.js"
+      ]
+    }
+  ],
+  "applications": {
+    "gecko": {
+      "id": "moodle-media@gmx-topmail.de"
+    }
+  }
+}
