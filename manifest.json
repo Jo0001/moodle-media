@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Moodle Media",
-  "version": "1.0",
+  "version": "1.1",
   "description": "MP3 & MP4 Dateien dirket in Moodle abspielen",
   "content_scripts": [
     {
